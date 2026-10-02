@@ -4,3 +4,5 @@ __pycache__/
 
 # Jupyter 的检查点文件夹
 .ipynb_checkpoints/
+
+data/processed/

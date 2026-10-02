@@ -12,6 +12,14 @@
 
 现如今卖东西有很多是打折卖的，我自己也喜欢买打折的衣服，所以想知道商家打折之后到底还赚不赚钱。
 
+## 数据来源
+
+- **数据集**：Sample Superstore
+- **原始出处**：Tableau 官方样例数据集
+- **下载地址**：https://www.kaggle.com/datasets/mudasirkhan01/sample-superstore
+- **许可**：Apache 2.0（注意：项目根目录的 MIT 许可只覆盖我写的代码，不覆盖数据）
+- **文件校验**：MD5 `b3066905e9eb4d477453d473dbf20c02`
+
 ## 关键发现
 
 ### 1. 折扣打到 7 折及以下，利润率转负

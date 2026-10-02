@@ -12,3 +12,14 @@ def load_clean() -> pd.DataFrame:
     df["Ship Date"] = pd.to_datetime(df["Ship Date"], format = "%m/%d/%Y")
 
     return df
+
+if __name__ == "__main__":
+    df = load_clean()
+
+    out = ROOT / "data" / "processed" / "superstore_clean.csv"
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    df.to_csv(out, index=False, encoding="utf-8")
+
+    print(f"已写出 {out}")
+    print(f"        {len(df):,} 行 × {df.shape[1]} 列")
